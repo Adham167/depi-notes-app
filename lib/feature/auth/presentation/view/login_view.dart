@@ -1,3 +1,4 @@
+import 'package:depi_notes_app/core/styles/colors/app_colors.dart';
 import 'package:depi_notes_app/feature/auth/presentation/view/widgets/login_view_body.dart';
 import 'package:flutter/material.dart';
 
@@ -7,6 +8,7 @@ class LoginView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppColors.kBackGround,
       body: LoginViewBody(),
     );
   }

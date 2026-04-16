@@ -7,4 +7,5 @@ class AppColors {
   static const kHintText = Color(0xFF94A3B8);
   static const kTitle = Color(0xFF0F172A);
   static const kSubTitle = Color(0xFF68778D);
+  static const kWhite = Color(0xFFFFFFFF);
 }

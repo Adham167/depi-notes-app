@@ -1,5 +1,5 @@
-import 'package:depi_notes_app/feature/auth/presentation/view/widgets/login_view.dart';
-import 'package:depi_notes_app/feature/auth/presentation/view/widgets/sign_up_view.dart';
+import 'package:depi_notes_app/feature/auth/presentation/view/login_view.dart';
+import 'package:depi_notes_app/feature/auth/presentation/view/sign_up_view.dart';
 import 'package:go_router/go_router.dart';
 
 class AppRouter {
