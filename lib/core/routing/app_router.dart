@@ -5,7 +5,7 @@ import 'package:go_router/go_router.dart';
 class AppRouter {
   static const kSignUp = '/SignUp';
 
-  final GoRouter router = GoRouter(
+  static final GoRouter router = GoRouter(
     routes: [
       GoRoute(path: '/', builder: (context, state) => LoginView()),
       GoRoute(path: kSignUp, builder: (context, state) => SignUpView()),
