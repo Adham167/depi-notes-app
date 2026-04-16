@@ -28,7 +28,12 @@ class LoginViewBody extends StatelessWidget {
             Text("Password", style: AppStyles.kRegular16),
             CustomTextField(hintText: "*************"),
             SizedBox(height: 24),
-            CustomButton(title: "Login"),
+            CustomButton(
+              title: "Login",
+              ontap: () {
+                GoRouter.of(context).push(AppRouter.kCreateNoteView);
+              },
+            ),
             SizedBox(height: 8),
             Align(
               alignment: Alignment.center,

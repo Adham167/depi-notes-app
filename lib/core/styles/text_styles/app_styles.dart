@@ -22,9 +22,9 @@ class AppStyles {
     fontSize: 16,
     fontWeight: FontWeight.w600,
   );
-  static final kHint12 = TextStyle(
+  static final kHint14 = TextStyle(
     color: AppColors.kHintText,
-    fontSize: 12,
+    fontSize: 14,
     fontWeight: FontWeight.w400,
   );
   static final kSubTitle14 = TextStyle(

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class AppColors {
   static const kprimary = Color(0xFF0AD9D9);
+  static const kHintprimary = Color(0xFF4A9C9C);
   static const kBackGround = Color(0xFFF5F8F8);
   static const kStroke = Color(0xFFE1E7F0);
   static const kHintText = Color(0xFF94A3B8);

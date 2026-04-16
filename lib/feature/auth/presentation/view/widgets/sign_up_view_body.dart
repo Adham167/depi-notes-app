@@ -34,7 +34,7 @@ class SignUpViewBody extends StatelessWidget {
             Text("Password", style: AppStyles.kRegular16),
             CustomTextField(hintText: "*************"),
             SizedBox(height: 24),
-            CustomButton(title: "Register"),
+            CustomButton(title: "Register",ontap: (){},),
             SizedBox(height: 16),
             DividerWidget(),
             SizedBox(height: 16),
