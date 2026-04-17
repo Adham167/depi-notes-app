@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "254944676803",
+    "project_id": "depi-todo-app",
+    "storage_bucket": "depi-todo-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254944676803:android:69af7d7e2b51776ad5cb76",
+        "android_client_info": {
+          "package_name": "com.example.depi_notes_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOpaeD-GjIaSriPvKHf86SjLR9uCIhVgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
