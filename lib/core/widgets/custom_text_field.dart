@@ -11,6 +11,7 @@ class CustomTextField extends StatelessWidget {
     this.obsecure = false,
     this.maxLines = 1,
     this.lightHint = false,
+    required this.textEditingController,
   });
 
   final String hintText;
@@ -19,15 +20,22 @@ class CustomTextField extends StatelessWidget {
   final bool lightHint;
   final void Function()? ontap;
   final int? maxLines;
+  final TextEditingController textEditingController;
 
   @override
   Widget build(BuildContext context) {
-    return TextField(
+    return TextFormField(
+      controller: textEditingController,
       cursorColor: AppColors.kprimary,
       obscureText: obsecure,
       maxLines: maxLines,
       textAlignVertical: TextAlignVertical.top,
-
+      validator: (v) {
+        if (v == null || v.isEmpty) {
+          return 'This Field is required';
+        }
+        return null;
+      },
       decoration: InputDecoration(
         hintText: hintText,
         hintStyle: lightHint

@@ -1,6 +1,6 @@
 import 'package:depi_notes_app/feature/auth/presentation/view/login_view.dart';
 import 'package:depi_notes_app/feature/auth/presentation/view/sign_up_view.dart';
-import 'package:depi_notes_app/feature/notes/data/models/note_model.dart';
+import 'package:depi_notes_app/feature/notes/domain/entities/note_entity.dart';
 import 'package:depi_notes_app/feature/notes/presentation/views/create_note_view.dart';
 import 'package:depi_notes_app/feature/notes/presentation/views/notes_details_view.dart';
 import 'package:depi_notes_app/feature/notes/presentation/views/notes_view.dart';
@@ -23,8 +23,8 @@ class AppRouter {
         path: kNotesDetailsView,
 
         builder: (context, state) {
-          final noteModel = state.extra as NoteModel;
-          return NotesDetailsView(noteModel: noteModel);
+          final noteEntity = state.extra as NoteEntity;
+          return NotesDetailsView(noteEntity: noteEntity);
         },
       ),
       GoRoute(

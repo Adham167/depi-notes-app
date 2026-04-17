@@ -23,10 +23,10 @@ class LoginViewBody extends StatelessWidget {
 
             Text("Email", style: AppStyles.kRegular16),
             SizedBox(height: 8),
-            CustomTextField(hintText: "name@example.com"),
+            // CustomTextField(hintText: "name@example.com"),
             SizedBox(height: 16),
             Text("Password", style: AppStyles.kRegular16),
-            CustomTextField(hintText: "*************"),
+            // CustomTextField(hintText: "*************"),
             SizedBox(height: 24),
             CustomButton(
               title: "Login",
